@@ -22,7 +22,7 @@ $options = array(
     CURLOPT_POSTFIELDS => json_encode($data)
 );
  
-/ Makes a HTTP PUT request using SSL
+// Makes a HTTP PUT request using SSL
 $ch = curl_init();
 curl_setopt_array($ch, $options);
  
